@@ -1,0 +1,20 @@
+.Intro {
+  background-color: rgba(211, 211, 211, 0.75);
+  border-radius: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 1.7vw;
+  margin-top: 4rem;
+}
+
+@media screen and (max-width: 1000px) {
+  .Intro {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .Intro {
+    font-size: 26px;
+  }
+}

@@ -1,0 +1,156 @@
+@font-face {
+  font-family: Olde English;
+  src: url(OldeEnglish.ttf);
+}
+@font-face {
+  font-family: TaylorGothic;
+  src: url("TaylorGothic.otf");
+}
+body {
+  font-family: Olde English;
+  background-image: url("images/Wood-Texture.webp");
+}
+p {
+  font-family: TaylorGothic;
+}
+
+header {
+  height: 100px;
+}
+
+h1 {
+  padding: 2.5rem;
+  font-size: 3.5rem;
+  color: black;
+  text-align: center;
+  background-image: url("images/Stone-Banner.jpg");
+  text-shadow: 4px 3px 5px rgb(100, 60, 10);
+  background-size: contain;
+}
+
+.darkmode,
+.darkmode h1,
+.darkmode .text,
+.darkmode .Intro,
+.darkmode .Description,
+.darkmode .weather,
+.darkmode .details,
+.darkmode .directions {
+  color: white;
+  background-color: rgb(20, 20, 20);
+  background-image: none;
+}
+
+.nav-link, .dropdown-toggle{
+  color: white;
+  font-size: 1.5rem;
+  text-shadow: 4px 3px 5px rgb(100, 60, 10);
+}
+
+.nav-link:hover {
+  color: #ffb90f;
+}
+
+#navone {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: center;
+  position: relative;
+  bottom: 4.8rem;
+}
+
+#navtwo {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  justify-content: center;
+  position: relative;
+  bottom: 15.8rem;
+}
+
+.dropdown-toggle:hover{
+  color: #ffb90f;
+}
+
+.dropdown-item:hover {
+  color: #ffb90f;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.btn:focus, .btn:active {
+  box-shadow: none;
+}
+
+.dropdown-menu {
+  background-image: url("images/Wood-Texture.webp");
+}
+
+.dropdown-menu a{
+  color:white;
+}
+
+#copyright {
+  color: white;
+  font-size: 1.2vw;
+  text-align: center;
+  position: relative;
+  height: 20vh;
+}
+
+@media screen and (max-width: 700px) {
+  .nav-item {
+    font-size: 2.3vw;
+  }
+  #copyright {
+    font-size: 10px;
+  }
+  header {
+    font-size: 2.3vw;
+  }
+  .dropdown-menu {
+    font-size: 2.3vw;
+  }
+}
+
+.dover {
+  background-color: rgb(0, 100, 0);
+}
+
+.edinburgh {
+  background-color: rgb(0, 0, 100);
+}
+
+.neuschwanstein {
+  background-color: rgb(100, 100, 0);
+}
+
+.versailles {
+  background-color: rgb(100, 0, 0);
+}
+
+.vianden {
+  background-color: rgb(100, 0, 100);
+}
+
+.gold {
+  color: #ffb90f;
+}
+
+#account {
+  background-image: url("images/Wood-Texture.webp"); 
+  background-color: rgb(41, 41, 41); 
+  border-radius: 8px; 
+  border: 1px solid #ddd;
+  padding: 5px;
+  width: 250px;
+}
+
+.navText {
+  color: white;
+  font-size: 1.5em;
+  text-shadow: 4px 3px 5px rgb(100, 60, 10);
+}
+
+.accInfo {
+  position: fixed;
+  top: .7rem;
+}
